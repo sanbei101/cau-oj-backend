@@ -10,7 +10,7 @@ require (
 	github.com/panjf2000/ants/v2 v2.11.2
 	github.com/stretchr/testify v1.10.0
 	gorm.io/driver/postgres v1.5.11
-	gorm.io/gorm v1.25.12
+	gorm.io/gorm v1.30.0
 )
 
 require (
