@@ -1,0 +1,3 @@
+oj-back.sanbei101.xyz {
+    reverse_proxy oj-backend:3000
+}
