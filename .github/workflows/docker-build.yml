@@ -39,17 +39,3 @@ jobs:
         cache-from: type=gha
         cache-to: type=gha,mode=max
         provenance: false
-
-        
-    # 部署到我的服务器
-    - name: deploy docker to remote server
-      uses: appleboy/ssh-action@v1.2.0
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        script: |
-          cd cau-oj-backend
-          docker rm cau-oj-backend -f
-          docker rmi swr.cn-north-4.myhuaweicloud.com/sanbei/cau-oj-backend -f
-          docker compose up -d
