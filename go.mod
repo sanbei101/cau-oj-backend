@@ -4,7 +4,7 @@ go 1.25
 
 require (
 	github.com/BurntSushi/toml v1.5.0
-	github.com/gofiber/fiber/v2 v2.52.9
+	github.com/gofiber/fiber/v2 v2.52.10
 	github.com/google/uuid v1.6.0
 	github.com/lib/pq v1.10.9
 	github.com/panjf2000/ants/v2 v2.11.3
