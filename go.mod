@@ -7,7 +7,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.52.12
 	github.com/google/uuid v1.6.0
 	github.com/lib/pq v1.12.0
-	github.com/panjf2000/ants/v2 v2.11.6
+	github.com/panjf2000/ants/v2 v2.12.0
 	github.com/stretchr/testify v1.11.1
 	gorm.io/driver/postgres v1.6.0
 	gorm.io/gorm v1.31.1
